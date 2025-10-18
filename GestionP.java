@@ -247,15 +247,6 @@ public class GestionP extends JFrame {
         panel.add(separador); 
     }
     
-    // =======================================================
-    // MINI MAIN (Para pruebas independientes)
-    // =======================================================
-    public static void main(String[] args) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                // Inicia la clase GestionP directamente para pruebas
-                new GestionP().setVisible(true); 
-            }
-        });
-    }
+   
 }
+
